@@ -5,7 +5,7 @@ jobs:
   build:
  
  
-    runs-ON: windows-latest
+    runs-on: windows-latest
  
  
     steps:
