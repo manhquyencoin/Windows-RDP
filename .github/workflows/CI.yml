@@ -1,11 +1,11 @@
-name: CI
- 
- 
-ON: [push, workflow_dispatch]
- 
- 
+name: mac
+on: 
+  workflow_dispatch:
+defaults:
+  run:
+    shell: bash
+
 jobs:
- 
   build:
  
  
